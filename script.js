@@ -1,0 +1,34 @@
+/* style.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #2c3e50, #3498db);
+}
+
+.video-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background: white;
+}
+
+#youtube-player {
+  width: 100%;
+  height: 270px;
+  margin-bottom: 20px;
+}
+
+.adsbygoogle {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
